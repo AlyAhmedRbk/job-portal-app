@@ -10,9 +10,9 @@ const Footer = () => {
         </p>
 
         <div className='flex gap-2.5'>
-            <img width={38} src={assets.facebook_icon} alt="" />
-            <img width={38} src={assets.twitter_icon} alt="" />
-            <img width={38} src={assets.instagram_icon} alt="" />
+            <img className='cursor-pointer hover:scale-110 duration-300 transition-all' width={38} src={assets.facebook_icon} alt="" />
+            <img className='cursor-pointer hover:scale-110 duration-300 transition-all'  width={38} src={assets.twitter_icon} alt="" />
+            <img className='cursor-pointer hover:scale-110 duration-300 transition-all'  width={38} src={assets.instagram_icon} alt="" />
         </div>
     </div>
   )
